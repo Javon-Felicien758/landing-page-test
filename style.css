@@ -119,3 +119,47 @@ body {
 
 
 /** Hero Section **/
+
+/** Site Content **/
+
+.site-content, .sub-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-section {
+    margin: 32px 0px;
+}
+
+.site-content .sub-section h1 {
+    margin-bottom: 60px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    width: 1000px;
+}
+
+.card-img {
+    border: 3px solid var(--bgColor2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 170px;
+}
+
+.card {
+    width: 170px;
+}
+
+.card p {
+    margin: 0px;
+    color: var(--bgColor3);
+    text-align: center;
+}
+/** Site Content **/
