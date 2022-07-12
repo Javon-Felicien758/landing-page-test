@@ -130,15 +130,20 @@ body {
 
 .sub-section {
     margin: 32px 0px;
+    min-height: 50vh;
+    justify-content: center;
 }
 
 .site-content .sub-section h1 {
     margin-bottom: 60px;
 }
 
-.card-section {
+/* Card Section */
+
+.card-group {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 55px;
     width: 1000px;
 }
@@ -162,4 +167,15 @@ body {
     color: var(--bgColor3);
     text-align: center;
 }
+
+/* Card Section */
+
+/* Quote Section */
+
+.sub-section.quote-section {
+    background-color: var(--bgColor3);
+}
+
+/* Quote Section */
+
 /** Site Content **/
