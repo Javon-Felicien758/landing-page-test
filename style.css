@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 21%;
+    padding: 0px 15%;
 }
 
 .header {
@@ -63,7 +63,7 @@ body {
     display: flex;
     padding: 60px 0px;
     flex: 1 0 auto;
-    gap: 90px;
+    gap: 60px;
 }
 
 .left-content {
@@ -87,7 +87,7 @@ body {
 }
 
 .right-content {
-    flex: 1 1 900px;
+    flex: 1 0 600px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -126,7 +126,7 @@ body {
 }
 
 .sub-section {
-    padding: 60px 21%;
+    padding: 60px 22%;
     min-height: 50vh;
     justify-content: center;
 }
