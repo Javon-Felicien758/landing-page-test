@@ -223,3 +223,16 @@ body {
 /* Call Section */
 
 /** Site Content **/
+
+/** Footer **/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgColor1);
+    color: var(--heroHeadColor);
+    padding: 24px 0px;
+}
+
+/** Footer **/
