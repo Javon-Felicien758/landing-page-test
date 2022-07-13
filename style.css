@@ -191,4 +191,35 @@ body {
 }
 /* Quote Section */
 
+/* Call Section */
+
+.call-section {
+    padding: 0px 15%;
+}
+
+.call-action {
+    border-radius: 10px;
+    background-color: var(--bgColor2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: var(--heroHeadColor);
+}
+
+.action-text > * {
+    margin: 0;
+}
+
+.action-button > button {
+    padding: 10px 30px;
+    border: 2px solid var(--heroHeadColor);
+    background-color: var(--bgColor2);
+    border-radius: 10px;
+    color: var(--heroHeadColor);
+    font-weight: 700;
+}
+
+/* Call Section */
+
 /** Site Content **/
